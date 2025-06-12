@@ -60,8 +60,8 @@ public class TypeClientRepository {
         return new HashMap<>(typeClients);
     }
 
-    public Optional<TypeClient> findByName(String nom) {
+    public Optional<TypeClient> findByCode(String code) {
         ensureInitialized();
-        return Optional.ofNullable(typeClients.get(nom));
+        return Optional.ofNullable(typeClients.get(code));
     }
 }

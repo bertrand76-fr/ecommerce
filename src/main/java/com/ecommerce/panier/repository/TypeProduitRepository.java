@@ -60,8 +60,8 @@ public class TypeProduitRepository {
         return new HashMap<>(typeProduits);
     }
     
-    public Optional<TypeProduit> findByName(String nom) {
+    public Optional<TypeProduit> findByCode(String code) {
         ensureInitialized();
-        return Optional.ofNullable(typeProduits.get(nom));
+        return Optional.ofNullable(typeProduits.get(code));
     }
 }

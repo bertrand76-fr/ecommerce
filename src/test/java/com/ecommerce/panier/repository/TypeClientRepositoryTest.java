@@ -36,7 +36,7 @@ class TypeClientRepositoryTest {
     @DisplayName("Doit retourner un TypeClient par son nom")
     void findByName_shouldReturnTypeClient_whenExists() {
         // When
-        Optional<TypeClient> typeClient = repository.findByName("PARTICULIER");
+        Optional<TypeClient> typeClient = repository.findByCode("PARTICULIER");
         
         // Then
         assertTrue(typeClient.isPresent());
@@ -47,7 +47,7 @@ class TypeClientRepositoryTest {
     @DisplayName("Doit retourner Optional.empty() pour un nom inexistant")
     void findByName_shouldReturnEmpty_whenNotExists() {
         // When
-        Optional<TypeClient> typeClient = repository.findByName("INEXISTANT");
+        Optional<TypeClient> typeClient = repository.findByCode("INEXISTANT");
         
         // Then
         assertFalse(typeClient.isPresent());
@@ -57,15 +57,15 @@ class TypeClientRepositoryTest {
     @DisplayName("Doit retourner la bonne valeur pour chaque type de client")
     void findByName_shouldReturnCorrectValues() {
         // When/Then
-        Optional<TypeClient> particulier = repository.findByName("PARTICULIER");
+        Optional<TypeClient> particulier = repository.findByCode("PARTICULIER");
         assertTrue(particulier.isPresent());
         assertEquals("Particulier", particulier.get().getNom());
         
-        Optional<TypeClient> profPetit = repository.findByName("PROFESSIONNEL_PETIT");
+        Optional<TypeClient> profPetit = repository.findByCode("PROFESSIONNEL_PETIT");
         assertTrue(profPetit.isPresent());
         assertEquals("Professionnel < 10M€", profPetit.get().getNom());
         
-        Optional<TypeClient> profGros = repository.findByName("PROFESSIONNEL_GROS");
+        Optional<TypeClient> profGros = repository.findByCode("PROFESSIONNEL_GROS");
         assertTrue(profGros.isPresent());
         assertEquals("Professionnel > 10M€", profGros.get().getNom());
     }

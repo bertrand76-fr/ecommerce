@@ -56,8 +56,8 @@ public class TarificationRepository {
             List<TarificationDto> data = objectMapper.readValue(input, new TypeReference<List<TarificationDto>>() {});
 
             for (TarificationDto dto : data) {
-                TypeProduit typeProduit = typeProduitRepository.findByName(dto.typeProduit).orElse(null);
-                TypeClient typeClient = typeClientRepository.findByName(dto.typeClient).orElse(null);
+                TypeProduit typeProduit = typeProduitRepository.findByCode(dto.typeProduit).orElse(null);
+                TypeClient typeClient = typeClientRepository.findByCode(dto.typeClient).orElse(null);
                 
                 if (typeProduit != null && typeClient != null) {
                     CleTarification cle = new CleTarification(typeProduit, typeClient);

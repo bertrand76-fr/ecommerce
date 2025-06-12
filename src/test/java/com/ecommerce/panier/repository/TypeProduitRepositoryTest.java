@@ -42,7 +42,7 @@ class TypeProduitRepositoryTest {
     @DisplayName("Doit retourner un TypeProduit par son nom")
     void findByName_shouldReturnTypeProduit_whenExists() {
         // When
-        Optional<TypeProduit> typeProduit = repository.findByName("TELEPHONE_HAUT_GAMME");
+        Optional<TypeProduit> typeProduit = repository.findByCode("TELEPHONE_HAUT_GAMME");
         
         // Then
         assertTrue(typeProduit.isPresent());
@@ -53,7 +53,7 @@ class TypeProduitRepositoryTest {
     @DisplayName("Doit retourner Optional.empty() pour un nom inexistant")
     void findByName_shouldReturnEmpty_whenNotExists() {
         // When
-        Optional<TypeProduit> typeProduit = repository.findByName("INEXISTANT");
+        Optional<TypeProduit> typeProduit = repository.findByCode("INEXISTANT");
         
         // Then
         assertFalse(typeProduit.isPresent());
@@ -63,15 +63,15 @@ class TypeProduitRepositoryTest {
     @DisplayName("Doit retourner la bonne valeur pour chaque type de produit")
     void findByName_shouldReturnCorrectValues() {
         // When/Then
-        Optional<TypeProduit> telephoneHG = repository.findByName("TELEPHONE_HAUT_GAMME");
+        Optional<TypeProduit> telephoneHG = repository.findByCode("TELEPHONE_HAUT_GAMME");
         assertTrue(telephoneHG.isPresent());
         assertEquals("Téléphone haut de gamme", telephoneHG.get().getNom());
         
-        Optional<TypeProduit> telephoneMG = repository.findByName("TELEPHONE_MOYEN_GAMME");
+        Optional<TypeProduit> telephoneMG = repository.findByCode("TELEPHONE_MOYEN_GAMME");
         assertTrue(telephoneMG.isPresent());
         assertEquals("Téléphone moyen de gamme", telephoneMG.get().getNom());
         
-        Optional<TypeProduit> laptop = repository.findByName("LAPTOP");
+        Optional<TypeProduit> laptop = repository.findByCode("LAPTOP");
         assertTrue(laptop.isPresent());
         assertEquals("Ordinateur portable", laptop.get().getNom());
     }
