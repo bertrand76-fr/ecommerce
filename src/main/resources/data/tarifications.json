@@ -1,0 +1,11 @@
+[
+  {"typeProduit": "TELEPHONE_HAUT_GAMME", "typeClient": "PARTICULIER", "prix": 1500.0},
+  {"typeProduit": "TELEPHONE_HAUT_GAMME", "typeClient": "PROFESSIONNEL_PETIT", "prix": 1150.0},
+  {"typeProduit": "TELEPHONE_HAUT_GAMME", "typeClient": "PROFESSIONNEL_GROS", "prix": 1000.0},
+  {"typeProduit": "TELEPHONE_MOYEN_GAMME", "typeClient": "PARTICULIER", "prix": 800.0},
+  {"typeProduit": "TELEPHONE_MOYEN_GAMME", "typeClient": "PROFESSIONNEL_PETIT", "prix": 600.0},
+  {"typeProduit": "TELEPHONE_MOYEN_GAMME", "typeClient": "PROFESSIONNEL_GROS", "prix": 550.0},
+  {"typeProduit": "LAPTOP", "typeClient": "PARTICULIER", "prix": 1200.0},
+  {"typeProduit": "LAPTOP", "typeClient": "PROFESSIONNEL_PETIT", "prix": 1000.0},
+  {"typeProduit": "LAPTOP", "typeClient": "PROFESSIONNEL_GROS", "prix": 900.0}
+]
