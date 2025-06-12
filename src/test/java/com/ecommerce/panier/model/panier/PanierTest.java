@@ -10,7 +10,7 @@ import java.util.Map;
 import static org.junit.jupiter.api.Assertions.*;
 
 @DisplayName("Tests de la classe Panier")
-public class PanierTest {
+class PanierTest {
     
     private Panier panier;
     private TypeProduit telephoneHG;

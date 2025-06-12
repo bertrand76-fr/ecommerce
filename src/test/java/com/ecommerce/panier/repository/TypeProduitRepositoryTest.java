@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @DisplayName("Tests du TypeProduitRepository")
-public class TypeProduitRepositoryTest {
+class TypeProduitRepositoryTest {
     
 	@Autowired
     private TypeProduitRepository repository;
