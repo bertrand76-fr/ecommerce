@@ -57,4 +57,11 @@ public class Panier {
     public boolean estVide() {
         return typeProduits.isEmpty();
     }
+
+	@Override
+	public String toString() {
+		return "Panier [typeProduits=" + typeProduits + "]";
+	}
+    
+    
 }

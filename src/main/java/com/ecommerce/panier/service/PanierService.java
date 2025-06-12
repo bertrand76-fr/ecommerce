@@ -3,6 +3,8 @@ package com.ecommerce.panier.service;
 import com.ecommerce.panier.model.client.Client;
 import com.ecommerce.panier.model.panier.Panier;
 import com.ecommerce.panier.model.produit.TypeProduit;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;
@@ -14,12 +16,10 @@ import java.util.Map;
 @Service
 public class PanierService {
     
-    private final PricingService pricingService;
+	@Autowired
+    private PricingService pricingService;
     
-    public PanierService(PricingService pricingService) {
-        this.pricingService = pricingService;
-    }
-    
+	
     /**
      * Calcule le coût total du panier pour un client donné
      * Utilise PricingService pour obtenir le prix de chaque type de produit
@@ -83,7 +83,6 @@ public class PanierService {
             return;
         }
         
-        double total = 0.0;
         
         for (Map.Entry<TypeProduit, Integer> entry : panier.getTypeProduits().entrySet()) {
             TypeProduit typeProduit = entry.getKey();
@@ -94,12 +93,13 @@ public class PanierService {
             
             // Calculer le sous-total pour ce type de produit
             double sousTotal = prixUnitaire * quantite;
-            total += sousTotal;
             
             // Afficher la ligne
             System.out.printf("- %s x%d : %.2f€ x %d = %.2f€%n", 
                             typeProduit.getNom(), quantite, prixUnitaire, quantite, sousTotal);
         }
+        
+        double total = calculerCoutTotal(panier, client);
         
         System.out.println();
         System.out.printf("TOTAL : %.2f€%n", total);

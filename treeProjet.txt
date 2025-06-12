@@ -1,0 +1,1298 @@
+.:
+total 47
+drwxr-xr-x 1 bdach 197609     0 Jun 12 20:30 ./
+drwxr-xr-x 1 bdach 197609     0 Jun 12 20:16 ../
+-rw-r--r-- 1 bdach 197609  2119 Jun 12 14:07 .classpath
+drwxr-xr-x 1 bdach 197609     0 Jun 12 19:52 .git/
+-rw-r--r-- 1 bdach 197609    38 Jun 12 11:42 .gitattributes
+-rw-r--r-- 1 bdach 197609   394 Jun 12 11:42 .gitignore
+drwxr-xr-x 1 bdach 197609     0 Jun 12 11:42 .mvn/
+-rw-r--r-- 1 bdach 197609   714 Jun 12 11:42 .project
+drwxr-xr-x 1 bdach 197609     0 Jun 12 11:42 .settings/
+-rw-r--r-- 1 bdach 197609  1340 Jun 12 11:42 HELP.md
+-rwxr-xr-x 1 bdach 197609 10665 Jun 12 11:42 mvnw*
+-rw-r--r-- 1 bdach 197609  6912 Jun 12 11:42 mvnw.cmd
+-rw-r--r-- 1 bdach 197609  1763 Jun 12 14:26 pom.xml
+drwxr-xr-x 1 bdach 197609     0 Jun 12 11:42 src/
+drwxr-xr-x 1 bdach 197609     0 Jun 12 11:42 target/
+-rw-r--r-- 1 bdach 197609     0 Jun 12 20:30 treeProjet.txt
+
+./.git:
+total 40
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 20:30 ../
+-rw-r--r-- 1 bdach 197609   22 Jun 12 19:52 COMMIT_EDITMSG
+-rw-r--r-- 1 bdach 197609   23 Jun 12 11:57 HEAD
+-rw-r--r-- 1 bdach 197609  165 Jun 12 13:47 config
+-rw-r--r-- 1 bdach 197609   73 Jun 12 11:57 description
+drwxr-xr-x 1 bdach 197609    0 Jun 12 11:57 hooks/
+-rw-r--r-- 1 bdach 197609 5514 Jun 12 19:52 index
+drwxr-xr-x 1 bdach 197609    0 Jun 12 11:57 info/
+drwxr-xr-x 1 bdach 197609    0 Jun 12 11:58 logs/
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 objects/
+drwxr-xr-x 1 bdach 197609    0 Jun 12 11:57 refs/
+
+./.git/hooks:
+total 57
+drwxr-xr-x 1 bdach 197609    0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-rwxr-xr-x 1 bdach 197609  478 Jun 12 11:57 applypatch-msg.sample*
+-rwxr-xr-x 1 bdach 197609  896 Jun 12 11:57 commit-msg.sample*
+-rwxr-xr-x 1 bdach 197609 4726 Jun 12 11:57 fsmonitor-watchman.sample*
+-rwxr-xr-x 1 bdach 197609  189 Jun 12 11:57 post-update.sample*
+-rwxr-xr-x 1 bdach 197609  424 Jun 12 11:57 pre-applypatch.sample*
+-rwxr-xr-x 1 bdach 197609 1649 Jun 12 11:57 pre-commit.sample*
+-rwxr-xr-x 1 bdach 197609  416 Jun 12 11:57 pre-merge-commit.sample*
+-rwxr-xr-x 1 bdach 197609 1374 Jun 12 11:57 pre-push.sample*
+-rwxr-xr-x 1 bdach 197609 4898 Jun 12 11:57 pre-rebase.sample*
+-rwxr-xr-x 1 bdach 197609  544 Jun 12 11:57 pre-receive.sample*
+-rwxr-xr-x 1 bdach 197609 1492 Jun 12 11:57 prepare-commit-msg.sample*
+-rwxr-xr-x 1 bdach 197609 2783 Jun 12 11:57 push-to-checkout.sample*
+-rwxr-xr-x 1 bdach 197609 2308 Jun 12 11:57 sendemail-validate.sample*
+-rwxr-xr-x 1 bdach 197609 3650 Jun 12 11:57 update.sample*
+
+./.git/info:
+total 5
+drwxr-xr-x 1 bdach 197609   0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-rw-r--r-- 1 bdach 197609 240 Jun 12 11:57 exclude
+
+./.git/logs:
+total 8
+drwxr-xr-x 1 bdach 197609    0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-rw-r--r-- 1 bdach 197609 1804 Jun 12 19:52 HEAD
+drwxr-xr-x 1 bdach 197609    0 Jun 12 11:58 refs/
+
+./.git/logs/refs:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 heads/
+
+./.git/logs/refs/heads:
+total 4
+drwxr-xr-x 1 bdach 197609    0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 11:58 ../
+-rw-r--r-- 1 bdach 197609 1804 Jun 12 19:52 master
+
+./.git/objects:
+total 28
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 01/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 02/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 05/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 06/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:14 07/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 09/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 0b/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 0c/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:03 0d/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:14 0e/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 10/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:03 11/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 13/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 14/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 15/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 19/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 1b/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 1d/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 1e/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 22/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 23/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:13 24/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 26/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:12 28/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 29/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:13 2a/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:03 2e/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 2f/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 30/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 31/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:12 33/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 34/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:14 3a/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 3b/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 3c/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 3f/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 41/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 42/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:13 44/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:13 46/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 47/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 4a/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 4b/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 50/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 51/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 52/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 54/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 55/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 5a/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:12 5c/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:14 5e/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 60/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 65/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 66/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 6a/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 6c/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:03 6d/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 6e/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 6f/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 70/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 72/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 74/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 76/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 78/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 79/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 7d/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:14 7e/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 7f/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:12 82/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:13 85/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 87/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 88/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 89/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 8b/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 8e/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:12 92/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:14 93/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 94/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 96/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:14 97/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:03 98/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 99/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 9b/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 9c/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 9d/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 9e/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 a1/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:14 a3/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 a4/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 a5/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 a8/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 b1/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 b2/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 b4/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 b5/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:03 b6/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 b7/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 b8/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 ba/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 bc/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:14 be/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 bf/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 c1/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 c6/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 ca/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:13 cc/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:13 d1/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:13 d3/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:14 d5/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 d9/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 da/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:12 de/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 e2/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 e5/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 e6/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 e7/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 eb/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:03 ec/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 ed/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 f1/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 f4/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:03 f5/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:58 f7/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 f9/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:48 fa/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:56 fc/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:14 fd/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 17:46 ff/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 info/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 pack/
+
+./.git/objects/01:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 50 Jun 12 11:57 776c3e9eb5d705d34bc5a5ae9ae7f81b4def2b
+
+./.git/objects/02:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 503 Jun 12 13:48 43491495a500eeaecfcf0059d61627dbf5b1df
+
+./.git/objects/05:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 80 Jun 12 13:48 2712683cad73966888aac3e8d77de8a8a127fd
+
+./.git/objects/06:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 621 Jun 12 11:57 cc015a5eea0bec9b9fd014254c3ee956735ce7
+
+./.git/objects/07:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:14 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 79 Jun 12 15:14 f1ffcd781a810555734e1b62c43cbcdd37fcb5
+
+./.git/objects/09:
+total 21
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609  48 Jun 12 19:52 1bd5c8ba577f6de3198ab9f1c7918544e04005
+-r--r--r-- 1 bdach 197609 908 Jun 12 17:46 6b0eb1a42b6c4b53c9ea5df323025d1434b9f4
+
+./.git/objects/0b:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 160 Jun 12 19:52 c51d0393bbdc5f1ce50d0d8e72fc4fd25ad511
+
+./.git/objects/0c:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 244 Jun 12 13:48 df740f4de419386b4638cc36a41e7e2abd0553
+
+./.git/objects/0d:
+total 18
+drwxr-xr-x 1 bdach 197609  0 Jun 12 18:03 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 74 Jun 12 18:03 1b8171cca2f3633a2e1684b5eaf613d4ffffe5
+-r--r--r-- 1 bdach 197609 48 Jun 12 13:48 31321d0d8cb1b2c47399bdf60b33f967de3bbe
+
+./.git/objects/0e:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:14 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 51 Jun 12 15:14 b2f2c0e676008037c508d5db67b799b5eb65a6
+
+./.git/objects/10:
+total 20
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 863 Jun 12 17:46 9a05f37b41e10ef690e33cb98c48b96a911db1
+
+./.git/objects/11:
+total 19
+drwxr-xr-x 1 bdach 197609   0 Jun 12 18:03 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 194 Jun 12 15:14 712a3255a454326b5860a0b696df0b4e643ba5
+-r--r--r-- 1 bdach 197609  48 Jun 12 18:03 88ad24bd1b0db4da82b197df6edbe5b4d223aa
+-r--r--r-- 1 bdach 197609  51 Jun 12 17:46 afd16acc4b916ce523e81cfb246c11da0c7b9d
+
+./.git/objects/13:
+total 18
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609  48 Jun 12 15:56 c57098cc00f45818178a7832b6ad3ff83d447c
+-r--r--r-- 1 bdach 197609 141 Jun 12 17:46 d17c0bb63a7443eac79ef8bc988867372d7379
+
+./.git/objects/14:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 51 Jun 12 15:56 c9e61cb3954760b1c31a8d36ce70793d7a35cb
+
+./.git/objects/15:
+total 18
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 172 Jun 12 19:52 c3da89e19523425162b566feb2c5d9a765217d
+-r--r--r-- 1 bdach 197609 367 Jun 12 19:52 de35eed67e18982b3c46563f848c5a79e01c96
+
+./.git/objects/19:
+total 20
+drwxr-xr-x 1 bdach 197609    0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 4052 Jun 12 11:57 529ddf8c6eaa08c5c75ff80652d21ce4b72f8c
+
+./.git/objects/1b:
+total 18
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609  45 Jun 12 17:46 6c6d106983df2139e8d2dee3c030d1cc6eea2c
+-r--r--r-- 1 bdach 197609 668 Jun 12 15:14 ae18b8b4b57a9709198c3f4ddbf0a5b623a6f4
+
+./.git/objects/1d:
+total 20
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 876 Jun 12 19:52 ac4a17e673c910c6461699ff157623aed1719f
+
+./.git/objects/1e:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 51 Jun 12 17:46 010d400d777cf7f9024020bc7407d8dcc0fb70
+
+./.git/objects/22:
+total 20
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 823 Jun 12 19:52 b7cc969634fdbef69833692895137ad00d962d
+
+./.git/objects/23:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 45 Jun 12 19:52 34b3b569dbe0efc244ae04b5d7ddc0e6819ddc
+
+./.git/objects/24:
+total 21
+drwxr-xr-x 1 bdach 197609    0 Jun 12 15:13 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 2737 Jun 12 11:57 9bdf3822221aa612d1da2605316cabd7b07e50
+-r--r--r-- 1 bdach 197609   79 Jun 12 15:13 bfc6d67ab0ab2d402da5add8a54db1517073e3
+
+./.git/objects/26:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 139 Jun 12 19:52 e4573cda4691810197cb301e7b98b4f22cb688
+
+./.git/objects/28:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:12 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 130 Jun 12 18:03 ee796055576f4bb57e24fd1b740f83d3d9d35e
+
+./.git/objects/29:
+total 20
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 807 Jun 12 19:52 2fe607f09f474923d2cd09fabacd4044104965
+
+./.git/objects/2a:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:13 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 189 Jun 12 15:13 c2cf09980bdccf1a0c5e2938a67675cb23c546
+
+./.git/objects/2e:
+total 19
+drwxr-xr-x 1 bdach 197609   0 Jun 12 18:03 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 135 Jun 12 15:12 3dbcd782d6589cde9e978eb353166af9401fa2
+-r--r--r-- 1 bdach 197609  75 Jun 12 15:12 7c8a8b5b4e770ed28c92c791e297e3c4f1918b
+-r--r--r-- 1 bdach 197609  52 Jun 12 18:03 83fa306d5689628d7bb0b7a3a338039614da11
+
+./.git/objects/2f:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 556 Jun 12 11:57 94e6169877eb0a98645c50fe64a31d84823139
+
+./.git/objects/30:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 98 Jun 12 17:46 ea5e232d1a0de89ccf379ac9edcdb670310aa7
+
+./.git/objects/31:
+total 18
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 375 Jun 12 13:48 12fa072694891813f571e1793b4b85d7de74f0
+-r--r--r-- 1 bdach 197609  46 Jun 12 17:46 dfac96f91e12de4ce539cd74160ec11c8d2015
+
+./.git/objects/33:
+total 18
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:12 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 189 Jun 12 17:46 ae032c572214f592d56131dfc93401f4bb47a9
+-r--r--r-- 1 bdach 197609  47 Jun 12 13:48 e792a02e5379218589da9b1ba1590a3cf453fc
+
+./.git/objects/34:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 75 Jun 12 15:56 e357b2f846740605689453c890c6bad10ceee6
+
+./.git/objects/3a:
+total 18
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:14 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 79 Jun 12 15:14 1fc70e6b91cad6c3ed8f55356598855213fa43
+-r--r--r-- 1 bdach 197609 75 Jun 12 11:58 73345557bea8f1c25d669129dba4c463da2f62
+
+./.git/objects/3b:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 44 Jun 12 11:57 41682ac579fafb665abb4dfcdaa6aaaa712184
+
+./.git/objects/3c:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 565 Jun 12 13:48 33888ae87afe179890114a29f6fe85aedf5ecd
+
+./.git/objects/3f:
+total 18
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 45 Jun 12 15:56 9a42dca7283f7953379258ed2d9726c68c6ae7
+-r--r--r-- 1 bdach 197609 67 Jun 12 11:58 d5072b5f47507f9aa0daf2f9a0b4bd90582b84
+
+./.git/objects/41:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 183 Jun 12 19:52 626496345f6b21e5b96bb75d53f4aafa38f1d7
+
+./.git/objects/42:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 69 Jun 12 11:58 9902ff48de8db8e4140c0750142f3ddbc9d284
+
+./.git/objects/44:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:13 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 101 Jun 12 15:13 be4aabcd7b3b25e2163d5876229a16e2079af3
+
+./.git/objects/46:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:13 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 46 Jun 12 15:13 f1aadc8bf388afc78f87f410b4455ec9226a0b
+
+./.git/objects/47:
+total 20
+drwxr-xr-x 1 bdach 197609    0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 1184 Jun 12 17:46 1ffdcfd315cfceab34bb16bdb5bebe15cb6da8
+
+./.git/objects/4a:
+total 21
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 1343 Jun 12 19:52 02fbf9d97b2720b44efe046a69d2f019c6c8f3
+-r--r--r-- 1 bdach 197609   51 Jun 12 13:48 5d46c792cd35d3b43e086f1a8d516b9a2d3cce
+
+./.git/objects/4b:
+total 18
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 373 Jun 12 13:48 b9d68fbd109064351d84683015eb408de7e5aa
+-r--r--r-- 1 bdach 197609  80 Jun 12 19:52 d630690b508fa4eac0a68958c6c3438a1fc355
+
+./.git/objects/50:
+total 21
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 235 Jun 12 18:03 52cb3a30a00515c5e38c2935e1b223da67fae2
+-r--r--r-- 1 bdach 197609 911 Jun 12 19:52 76902bc23747fcb325fb2372786884448beeb2
+
+./.git/objects/51:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 628 Jun 12 17:46 966ed00ca7a4a686f921efa8f712479260e7a6
+
+./.git/objects/52:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 146 Jun 12 13:48 ffd35ea75c0363496dbafe8c42851a98ac868a
+
+./.git/objects/54:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 45 Jun 12 11:58 f3f49900b5a0e6f217da790b8bf6a085125a5c
+
+./.git/objects/55:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 192 Jun 12 15:56 17dceb8ffdd30292a88abf87c1ae0887d1c038
+
+./.git/objects/5a:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 48 Jun 12 17:46 688d0eb6d661761cbb78eb82f4600ad2b3b8df
+
+./.git/objects/5c:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:12 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 179 Jun 12 15:12 994dc5d2f9c9f89c7f7f9618ca1371e322ed9b
+
+./.git/objects/5e:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:14 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 140 Jun 12 15:14 276b9ef099fc1bf76d8bad58b07e976211c405
+
+./.git/objects/60:
+total 21
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 105 Jun 12 18:03 92396acf08c347c9ff89c7d0b7b6304ce4f41e
+-r--r--r-- 1 bdach 197609 708 Jun 12 19:52 bc2a7fb615fc1b5e9b72eaab5843ff733cf245
+
+./.git/objects/65:
+total 19
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 75 Jun 12 15:14 42b2d97ff796bb7f77b86ed37f931e356af376
+-r--r--r-- 1 bdach 197609 48 Jun 12 15:13 640f96d046a988b81b5fd602d979455e51f4d1
+-r--r--r-- 1 bdach 197609 52 Jun 12 15:56 d81165aebfdfd56acc230d56a1435ad9bbe42b
+
+./.git/objects/66:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 248 Jun 12 11:57 7aaef0c891a18c6177b09b53418bf59c6ab91f
+
+./.git/objects/6a:
+total 18
+drwxr-xr-x 1 bdach 197609  0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 48 Jun 12 17:46 3c3d7c07a091ef03721148c4c5f0e6e9f1462b
+-r--r--r-- 1 bdach 197609 48 Jun 12 11:58 e05b3e5e921d61d27fc57c682818657541c6fc
+
+./.git/objects/6c:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 518 Jun 12 13:48 7d714f099e4c36d046362be8108552b9e000d1
+
+./.git/objects/6d:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 18:03 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 80 Jun 12 18:03 c69deb7bbdba3c1c7ebc2b6a5153c3aed332b9
+
+./.git/objects/6e:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 51 Jun 12 13:48 151d579418c8c6d55d65a7cbb3e4747253009f
+
+./.git/objects/6f:
+total 18
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609  51 Jun 12 19:52 4af160bb30dd037a28d9d0c1240f10e452f7b7
+-r--r--r-- 1 bdach 197609 167 Jun 12 11:57 d245b22cdc187011275a43aa0f3269add0bed0
+
+./.git/objects/70:
+total 25
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609  64 Jun 12 15:13 086b54d4b49b37df8e8a99412e9ce2ec994ed8
+-r--r--r-- 1 bdach 197609 101 Jun 12 13:48 41bf70fe5d4e4b1f0d3e407a29b4fc4c7f9b54
+-r--r--r-- 1 bdach 197609  79 Jun 12 19:52 5016b910a6d19e9fef7e000c259d236b90cd31
+-r--r--r-- 1 bdach 197609  45 Jun 12 19:52 8b25a98266d2a890ef5459bc3010b4c362d9ef
+-r--r--r-- 1 bdach 197609 178 Jun 12 18:03 c030b69308eea35384dc2bc701c52c18c88562
+
+./.git/objects/72:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 141 Jun 12 15:56 3ec191ae9e4c360be4ffc36a3f94f8cd714e12
+
+./.git/objects/74:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 79 Jun 12 17:46 95b99419a692db6bad6edb1f9492e827442d14
+
+./.git/objects/76:
+total 25
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609  862 Jun 12 19:52 5a6720bf6952eafc9d9e95faa0ca165e1459de
+-r--r--r-- 1 bdach 197609 1328 Jun 12 17:46 5d6c1bb37ca588049272a0ab971bdc5b36fdbe
+-r--r--r-- 1 bdach 197609   48 Jun 12 13:48 86bc99c46af07c4671c62462eb78208bb39c83
+
+./.git/objects/78:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 56 Jun 12 13:48 3bf12888ba65747472aef89da5ca2e9297c032
+
+./.git/objects/79:
+total 21
+drwxr-xr-x 1 bdach 197609    0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609   45 Jun 12 17:46 2515e54208a810862f6b44de969c7ab507982c
+-r--r--r-- 1 bdach 197609 1043 Jun 12 15:14 9990f42d8b84f10b523094c9180cff3af97834
+
+./.git/objects/7d:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 80 Jun 12 11:58 9c559ab85fe6741abc2fa78085e29221ccb06b
+
+./.git/objects/7e:
+total 20
+drwxr-xr-x 1 bdach 197609    0 Jun 12 15:14 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 1136 Jun 12 15:14 9015fbd8e3ee7d33a6b8aeea41ea7deb282c6f
+
+./.git/objects/7f:
+total 20
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 1009 Jun 12 19:52 9db1fc65b189db4a0af835e287bfe9b7ecd758
+
+./.git/objects/82:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:12 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 97 Jun 12 15:12 8822878bb64393d80817b2c419a928d77789d6
+
+./.git/objects/85:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:13 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 75 Jun 12 15:13 38ed541e16a2892a83eddb3eb83c3d84db07ed
+
+./.git/objects/87:
+total 21
+drwxr-xr-x 1 bdach 197609   0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 686 Jun 12 13:48 75f585dd28555dab0d9260e0c6765dedb5f4f5
+-r--r--r-- 1 bdach 197609 345 Jun 12 13:48 e001ccd47f4e36314fdc9900c7e36874f32d64
+
+./.git/objects/88:
+total 18
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 46 Jun 12 15:56 847adfb4ccaae210ad5f585d6489ad9136eaa0
+-r--r--r-- 1 bdach 197609 48 Jun 12 15:14 e394b3af351e34133116750b531a9af378a793
+
+./.git/objects/89:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 45 Jun 12 15:56 0d23b6d852048409728045a5d8d4d4c882001a
+
+./.git/objects/8b:
+total 21
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 1038 Jun 12 19:52 73878bbeb361e31eaec2b10bae020b19c3b532
+-r--r--r-- 1 bdach 197609   79 Jun 12 17:46 88b88948fe5a49e59c820b142865fc3182228a
+
+./.git/objects/8e:
+total 21
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 137 Jun 12 15:56 357ed470bf7415e07b55ac22e4c2695d2e3bcd
+-r--r--r-- 1 bdach 197609 911 Jun 12 15:56 be75f28d44397bc04a85f9bb6fb0267230dc09
+
+./.git/objects/92:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:12 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 122 Jun 12 15:56 21655bdca4e4c89eefa5f58d4f2c549695f930
+
+./.git/objects/93:
+total 19
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:14 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 136 Jun 12 15:14 3fd648d46a459145c18fbfe68e448093c2942a
+-r--r--r-- 1 bdach 197609 377 Jun 12 13:48 adf9d0918cc50d444d49776f4d6a846026d770
+-r--r--r-- 1 bdach 197609 235 Jun 12 15:12 c3ed4d78345fad2c69df0dc792f1314b03e8e9
+
+./.git/objects/94:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 74 Jun 12 17:46 364d8d178d8be9bf49b867e63db9a5d7313a64
+
+./.git/objects/96:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 67 Jun 12 11:58 2c37ed7f0daaa9d9f68df511ad5ca49b21de34
+
+./.git/objects/97:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:14 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 51 Jun 12 15:14 f58516a59f5285e7597b232f2dfb8686624516
+
+./.git/objects/98:
+total 18
+drwxr-xr-x 1 bdach 197609  0 Jun 12 18:03 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 48 Jun 12 15:14 4f084abcf7dc2f581744cd3ecad0de61f86710
+-r--r--r-- 1 bdach 197609 46 Jun 12 18:03 b67e40ce85cd0ce4d68fd44187bf5f973d114d
+
+./.git/objects/99:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 74 Jun 12 11:58 1d0270251d45d8477927e7e5ec86d4ac462643
+
+./.git/objects/9b:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 191 Jun 12 17:46 22eaee7bb10b3c6cf84be0f9adc325886d48bc
+
+./.git/objects/9c:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 48 Jun 12 19:52 794f0dd8253c73fd420112851b0f8f3488f110
+
+./.git/objects/9d:
+total 18
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 107 Jun 12 13:48 1ede21d13143a86a483b778d65f220abe8e2c2
+-r--r--r-- 1 bdach 197609  51 Jun 12 19:52 6c23898590750810ef25f4c8acad904a3b8089
+
+./.git/objects/9e:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 79 Jun 12 15:56 fa3cdf01f0a02fd5cc29e1df7905d9b7b0b9fb
+
+./.git/objects/a1:
+total 19
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609  48 Jun 12 13:48 0a5c71ab44d4d0e0ab0c9cf1fc384e7e3e9fd0
+-r--r--r-- 1 bdach 197609  48 Jun 12 15:56 3619baadcf0f6415f317f4e3da5064ee91c2f3
+-r--r--r-- 1 bdach 197609 188 Jun 12 11:57 929bc039877dd0613a0935700b4e05da316758
+
+./.git/objects/a3:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:14 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 45 Jun 12 15:14 ec9f758a093f36d5014304bd865dae38c240d0
+
+./.git/objects/a4:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 235 Jun 12 17:46 c0f42e0174bd4c6653a141c522af30e0e5709d
+
+./.git/objects/a5:
+total 21
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609  45 Jun 12 13:48 5be8b25af1fbe27a7ccb9fa0f95efff7c23872
+-r--r--r-- 1 bdach 197609 876 Jun 12 15:56 9e7d60ca641eea33c676f7669ee1ea708fea9a
+
+./.git/objects/a8:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 167 Jun 12 19:52 0580aadabb577ffdbce870a98a858d2b819256
+
+./.git/objects/b1:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 74 Jun 12 13:48 354c4e53029549b2d731500c49bb6b5809b31e
+
+./.git/objects/b2:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 48 Jun 12 17:46 61a99e033b1e9bb404d0ad0112a4ff2cd0ef78
+
+./.git/objects/b4:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 60 Jun 12 17:46 543d51df84bc44868e8fad14ad224cd3949424
+
+./.git/objects/b5:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 86 Jun 12 13:48 f300d7defc4399fa8564c65213373717979f9e
+
+./.git/objects/b6:
+total 18
+drwxr-xr-x 1 bdach 197609   0 Jun 12 18:03 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609  45 Jun 12 18:03 b3e4a61296f78d72909fcefea777788eb9b8c2
+-r--r--r-- 1 bdach 197609 203 Jun 12 18:03 b4e3679595d7275b3c65658dd1d67ec25876e1
+
+./.git/objects/b7:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 75 Jun 12 15:56 fd06d9af850d2e3cd092f1967d2c43014cd3a9
+
+./.git/objects/b8:
+total 28
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 1480 Jun 12 19:52 1fccd79df34890e2e4213933bb37fab4206174
+-r--r--r-- 1 bdach 197609  178 Jun 12 19:52 39253657cc4104fd6c364f09864ff72ca48762
+-r--r--r-- 1 bdach 197609   71 Jun 12 15:14 5cade6df05d8cc657b30fac34eaa527bb6bc2c
+-r--r--r-- 1 bdach 197609  136 Jun 12 15:56 85bb6d53086467fa53107a7a70eca624761de5
+-r--r--r-- 1 bdach 197609   80 Jun 12 15:12 a7241fcc69c2922230f7c02f294ee8ca632cef
+
+./.git/objects/ba:
+total 21
+drwxr-xr-x 1 bdach 197609    0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609   49 Jun 12 11:58 2ddeb1ee5d0c7c2a3190b0d7e49779364aaec7
+-r--r--r-- 1 bdach 197609 1189 Jun 12 13:48 c25d83322cf68992e15c7efd3ae24e64bccb45
+
+./.git/objects/bc:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 168 Jun 12 11:58 6a6b4f0342bd203de2a585870199423f5dad5d
+
+./.git/objects/be:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:14 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 46 Jun 12 15:14 156ef0cc2e1d810c024be0ac3e894e45ac00cf
+
+./.git/objects/bf:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 136 Jun 12 17:46 782b3cd6dae16b7ff48b5e58246e06b96b7883
+
+./.git/objects/c1:
+total 20
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609  79 Jun 12 15:12 51e444f5d3d5f737a0b3e645a923342242afdf
+-r--r--r-- 1 bdach 197609 135 Jun 12 19:52 5a40dd8f73448d996d2b86449bbfc5321a72b8
+-r--r--r-- 1 bdach 197609  48 Jun 12 11:58 d30475f59d250fafd82d029dd6df4ba1a098d1
+-r--r--r-- 1 bdach 197609 100 Jun 12 13:48 f5658ca3139126ee8f49f85218461251bf9661
+
+./.git/objects/c6:
+total 20
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 804 Jun 12 17:46 026f5b4008d98a239210422232cff64aacc1f9
+
+./.git/objects/ca:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 74 Jun 12 19:52 737678188a30c3f51cccd79b43af4061b1d8f5
+
+./.git/objects/cc:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:13 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 234 Jun 12 15:13 103b97f1e86c02423ea115c7933266ac45da3d
+
+./.git/objects/d1:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:13 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 51 Jun 12 15:13 50e0bbe297785aebf9caa536a9cca7a8f97d0f
+
+./.git/objects/d3:
+total 18
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:13 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 146 Jun 12 15:13 27e1369b0d8ed55aba5c6d183eda88ec82571e
+-r--r--r-- 1 bdach 197609 158 Jun 12 13:48 c2f10d84670413fba07181a6c58545e8432d4a
+
+./.git/objects/d5:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:14 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 235 Jun 12 15:14 f1161f820743901c174aeb00ec7257dce3b351
+
+./.git/objects/d9:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 52 Jun 12 11:58 501e09b85177d3371371ba85977ea30a7be19b
+
+./.git/objects/da:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 235 Jun 12 19:52 e1d179646f941a495e6f5d611badaa78f4e725
+
+./.git/objects/de:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:12 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 46 Jun 12 15:12 8f380e39b8fbc704efc3adad347530ef89641b
+
+./.git/objects/e2:
+total 20
+drwxr-xr-x 1 bdach 197609    0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 1009 Jun 12 17:46 daf1a24fcce7f752f5fbfe8d044b64f054b7de
+
+./.git/objects/e5:
+total 18
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 234 Jun 12 13:48 0a1dc1228ee36bad8b133ddd867d3745fdf06e
+-r--r--r-- 1 bdach 197609 178 Jun 12 17:46 4e723482afa11b61aa11ab7ad6bd8a8700842e
+
+./.git/objects/e6:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 51 Jun 12 11:58 821c05532465a7842f1cfe9af0f23f12ce091a
+
+./.git/objects/e7:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 71 Jun 12 15:56 08626c08476ba034efcc81b8a0e244f99ec8e2
+
+./.git/objects/eb:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 60 Jun 12 13:48 3c755d3d4876b4383072ead3a0200cbf2f71e5
+
+./.git/objects/ec:
+total 20
+drwxr-xr-x 1 bdach 197609    0 Jun 12 18:03 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 1511 Jun 12 18:03 489578dd16b60ce18fbd1f2fafe33890a6f44c
+
+./.git/objects/ed:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 235 Jun 12 15:56 c4d5d79789f6cff5129c987380598fc1143f86
+
+./.git/objects/f1:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 234 Jun 12 11:58 7edba80cda1bc5df67ea629f52c6e3512bc432
+
+./.git/objects/f4:
+total 20
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 1078 Jun 12 19:52 b3ca9f05049aee213ba714ef40552abebd8d89
+
+./.git/objects/f5:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 18:03 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 142 Jun 12 18:03 5a740ce4f66858b5231061d3e23496a69a680a
+
+./.git/objects/f7:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:58 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 46 Jun 12 11:58 387eb2b15c368774fdf5b73ba4393f2a54c398
+
+./.git/objects/f9:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 179 Jun 12 13:48 c6f66312e1132de69c1e461dc28084bf53f93c
+
+./.git/objects/fa:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 13:48 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 45 Jun 12 13:48 e029969e29838015988aba4525d49ee40290b1
+
+./.git/objects/fc:
+total 18
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:56 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 45 Jun 12 11:58 1f3d8193359166cae889d0fb72118378df60e4
+-r--r--r-- 1 bdach 197609 79 Jun 12 15:56 db44aafcf635fd04357f7b26e6dce506cdf8cb
+
+./.git/objects/fd:
+total 17
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:14 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 74 Jun 12 15:14 443080bb6324849ea4acbea9f22d6ff44812ef
+
+./.git/objects/ff:
+total 17
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:46 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:52 ../
+-r--r--r-- 1 bdach 197609 139 Jun 12 17:46 b1acd024d9560ec14a45cb96f1c8538f868c4d
+
+./.git/objects/info:
+total 16
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 ../
+
+./.git/objects/pack:
+total 16
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 ../
+
+./.git/refs:
+total 4
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 19:52 heads/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 tags/
+
+./.git/refs/heads:
+total 1
+drwxr-xr-x 1 bdach 197609  0 Jun 12 19:52 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:57 ../
+-rw-r--r-- 1 bdach 197609 41 Jun 12 19:52 master
+
+./.git/refs/tags:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:57 ../
+
+./.mvn:
+total 4
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 20:30 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 wrapper/
+
+./.mvn/wrapper:
+total 4
+drwxr-xr-x 1 bdach 197609   0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 11:42 ../
+-rw-r--r-- 1 bdach 197609 953 Jun 12 11:42 maven-wrapper.properties
+
+./.settings:
+total 13
+drwxr-xr-x 1 bdach 197609   0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 20:30 ../
+-rw-r--r-- 1 bdach 197609 155 Jun 12 11:42 org.eclipse.core.resources.prefs
+-rw-r--r-- 1 bdach 197609  69 Jun 12 11:42 org.eclipse.jdt.apt.core.prefs
+-rw-r--r-- 1 bdach 197609 549 Jun 12 11:42 org.eclipse.jdt.core.prefs
+-rw-r--r-- 1 bdach 197609  97 Jun 12 11:42 org.eclipse.m2e.core.prefs
+-rw-r--r-- 1 bdach 197609  65 Jun 12 11:42 org.springframework.ide.eclipse.prefs
+
+./src:
+total 4
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 20:30 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 main/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 14:07 test/
+
+./src/main:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 java/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:12 resources/
+
+./src/main/java:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 com/
+
+./src/main/java/com:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ecommerce/
+
+./src/main/java/com/ecommerce:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:36 panier/
+
+./src/main/java/com/ecommerce/panier:
+total 1
+drwxr-xr-x 1 bdach 197609   0 Jun 12 18:36 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 11:42 ../
+-rw-r--r-- 1 bdach 197609 319 Jun 12 11:42 EcommerceApplication.java
+drwxr-xr-x 1 bdach 197609   0 Jun 12 12:25 model/
+drwxr-xr-x 1 bdach 197609   0 Jun 12 18:44 repository/
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:45 service/
+
+./src/main/java/com/ecommerce/panier/model:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 12:25 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:36 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 12:59 client/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 12:21 panier/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 12:20 produit/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 14:16 tarification/
+
+./src/main/java/com/ecommerce/panier/model/client:
+total 13
+drwxr-xr-x 1 bdach 197609    0 Jun 12 12:59 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 12:25 ../
+-rw-r--r-- 1 bdach 197609  386 Jun 12 12:44 Client.java
+-rw-r--r-- 1 bdach 197609  735 Jun 12 12:44 ClientParticulier.java
+-rw-r--r-- 1 bdach 197609 1715 Jun 12 12:45 ClientProfessionnel.java
+-rw-r--r-- 1 bdach 197609  752 Jun 12 13:03 TypeClient.java
+
+./src/main/java/com/ecommerce/panier/model/panier:
+total 4
+drwxr-xr-x 1 bdach 197609    0 Jun 12 12:21 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 12:25 ../
+-rw-r--r-- 1 bdach 197609 1908 Jun 12 13:21 Panier.java
+
+./src/main/java/com/ecommerce/panier/model/produit:
+total 8
+drwxr-xr-x 1 bdach 197609    0 Jun 12 12:20 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 12:25 ../
+-rw-r--r-- 1 bdach 197609 1262 Jun 12 13:03 Produit.java
+-rw-r--r-- 1 bdach 197609  759 Jun 12 13:00 TypeProduit.java
+
+./src/main/java/com/ecommerce/panier/model/tarification:
+total 4
+drwxr-xr-x 1 bdach 197609    0 Jun 12 14:16 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 12:25 ../
+-rw-r--r-- 1 bdach 197609 1340 Jun 12 13:04 CleTarification.java
+
+./src/main/java/com/ecommerce/panier/repository:
+total 12
+drwxr-xr-x 1 bdach 197609    0 Jun 12 18:44 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 18:36 ../
+-rw-r--r-- 1 bdach 197609 2888 Jun 12 19:32 TarificationRepository.java
+-rw-r--r-- 1 bdach 197609 2187 Jun 12 19:32 TypeClientRepository.java
+-rw-r--r-- 1 bdach 197609 2283 Jun 12 19:32 TypeProduitRepository.java
+
+./src/main/java/com/ecommerce/panier/service:
+total 20
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:45 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 18:36 ../
+-rw-r--r-- 1 bdach 197609 3944 Jun 12 19:45 PanierService.java
+-rw-r--r-- 1 bdach 197609  817 Jun 12 19:07 PricingService.java
+-rw-r--r-- 1 bdach 197609 2027 Jun 12 19:14 PricingServiceImpl.java
+-rw-r--r-- 1 bdach 197609 4583 Jun 12 19:32 TypeClientService.java
+
+./src/main/resources:
+total 1
+drwxr-xr-x 1 bdach 197609  0 Jun 12 15:12 ./
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:42 ../
+-rw-r--r-- 1 bdach 197609 35 Jun 12 15:12 application.properties
+drwxr-xr-x 1 bdach 197609  0 Jun 12 18:02 data/
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:42 static/
+drwxr-xr-x 1 bdach 197609  0 Jun 12 11:42 templates/
+
+./src/main/resources/data:
+total 6
+drwxr-xr-x 1 bdach 197609   0 Jun 12 18:02 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 15:12 ../
+-rw-r--r-- 1 bdach 197609 806 Jun 12 18:02 tarifications.json
+-rw-r--r-- 1 bdach 197609 139 Jun 12 18:02 typeclients.json
+-rw-r--r-- 1 bdach 197609 154 Jun 12 18:02 typeproduits.json
+
+./src/main/resources/static:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:12 ../
+
+./src/main/resources/templates:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 15:12 ../
+
+./src/test:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 14:07 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 java/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 14:07 resources/
+
+./src/test/java:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 14:07 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 com/
+
+./src/test/java/com:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ecommerce/
+
+./src/test/java/com/ecommerce:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:15 panier/
+
+./src/test/java/com/ecommerce/panier:
+total 1
+drwxr-xr-x 1 bdach 197609   0 Jun 12 18:15 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 11:42 ../
+-rw-r--r-- 1 bdach 197609 215 Jun 12 11:42 EcommerceApplicationTests.java
+drwxr-xr-x 1 bdach 197609   0 Jun 12 13:32 model/
+drwxr-xr-x 1 bdach 197609   0 Jun 12 17:02 repository/
+drwxr-xr-x 1 bdach 197609   0 Jun 12 19:49 service/
+
+./src/test/java/com/ecommerce/panier/model:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:32 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 18:15 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 13:33 panier/
+
+./src/test/java/com/ecommerce/panier/model/panier:
+total 8
+drwxr-xr-x 1 bdach 197609    0 Jun 12 13:33 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 13:32 ../
+-rw-r--r-- 1 bdach 197609 4940 Jun 12 16:44 PanierTest.java
+
+./src/test/java/com/ecommerce/panier/repository:
+total 20
+drwxr-xr-x 1 bdach 197609    0 Jun 12 17:02 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 18:15 ../
+-rw-r--r-- 1 bdach 197609 4662 Jun 12 18:02 RepositoryIntegrationTest.java
+-rw-r--r-- 1 bdach 197609 1592 Jun 12 16:44 TarificationRepositoryTest.java
+-rw-r--r-- 1 bdach 197609 2633 Jun 12 19:32 TypeClientRepositoryTest.java
+-rw-r--r-- 1 bdach 197609 3116 Jun 12 19:31 TypeProduitRepositoryTest.java
+
+./src/test/java/com/ecommerce/panier/service:
+total 16
+drwxr-xr-x 1 bdach 197609    0 Jun 12 19:49 ./
+drwxr-xr-x 1 bdach 197609    0 Jun 12 18:15 ../
+-rw-r--r-- 1 bdach 197609 5360 Jun 12 19:49 PanierServiceTest.java
+-rw-r--r-- 1 bdach 197609 3568 Jun 12 19:35 PricingServiceTest.java
+-rw-r--r-- 1 bdach 197609 3118 Jun 12 19:32 TypeClientServiceTest.java
+
+./src/test/resources:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 14:07 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 14:07 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 16:23 data/
+
+./src/test/resources/data:
+total 6
+drwxr-xr-x 1 bdach 197609   0 Jun 12 16:23 ./
+drwxr-xr-x 1 bdach 197609   0 Jun 12 14:07 ../
+-rw-r--r-- 1 bdach 197609 806 Jun 12 13:56 tarifications.json
+-rw-r--r-- 1 bdach 197609 139 Jun 12 17:31 typeclients.json
+-rw-r--r-- 1 bdach 197609 154 Jun 12 13:46 typeproduits.json
+
+./target:
+total 4
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 20:30 ../
+drwxr-xr-x 1 bdach 197609 0 Jun 12 20:16 classes/
+drwxr-xr-x 1 bdach 197609 0 Jun 12 20:16 test-classes/
+
+./target/classes:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 20:16 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ../
+
+./target/test-classes:
+total 0
+drwxr-xr-x 1 bdach 197609 0 Jun 12 20:16 ./
+drwxr-xr-x 1 bdach 197609 0 Jun 12 11:42 ../

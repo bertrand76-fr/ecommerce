@@ -5,6 +5,8 @@ import com.ecommerce.panier.model.client.ClientParticulier;
 import com.ecommerce.panier.model.client.ClientProfessionnel;
 import com.ecommerce.panier.model.client.TypeClient;
 import com.ecommerce.panier.repository.TypeClientRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -18,6 +20,7 @@ import java.util.Optional;
 @Service
 public class TypeClientService {
     
+	@Autowired
     private final TypeClientRepository typeClientRepository;
     
     // Seuil pour différencier les professionnels (10 millions d'euros)

@@ -5,6 +5,8 @@ import com.ecommerce.panier.model.client.TypeClient;
 import com.ecommerce.panier.model.produit.TypeProduit;
 import com.ecommerce.panier.model.tarification.CleTarification;
 import com.ecommerce.panier.repository.TarificationRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -14,14 +16,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class PricingServiceImpl implements PricingService {
     
-    private final TypeClientService typeClientService;
-    private final TarificationRepository tarificationRepository;
+	@Autowired
+    private TypeClientService typeClientService;
     
-    public PricingServiceImpl(TypeClientService typeClientService, 
-                             TarificationRepository tarificationRepository) {
-        this.typeClientService = typeClientService;
-        this.tarificationRepository = tarificationRepository;
-    }
+	@Autowired
+    private TarificationRepository tarificationRepository;
+    
     
     @Override
     public double getPrix(TypeProduit typeProduit, Client client) {
