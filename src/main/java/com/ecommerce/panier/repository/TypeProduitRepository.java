@@ -16,33 +16,32 @@ import java.util.Optional;
 @Repository
 public class TypeProduitRepository {
     
-    @Value("${app.data.typeproduits:data/typeproduits.json}")
+    private static final String TYPEPRODUIT_CONFIG = "data/typeproduits.json";
+    
+    @Value("${app.data.typeproduits:" + TYPEPRODUIT_CONFIG + "}")
     private String configFile;
     
     private Map<String, TypeProduit> typeProduits;
     private final ObjectMapper objectMapper = new ObjectMapper();
-
     
     @PostConstruct
     public void init() {
-        System.out.println("🚀 PostConstruct - Instance: " + this.hashCode());
-        if (typeProduits != null) {
-            System.out.println("⚠️ Init appelé mais typeProduits déjà initialisé");
-            return;
-        }
-        System.out.println("🚀 PostConstruct appelé !");
-        System.out.println("📁 Config file: " + configFile);
-        chargerTypeProduits();
-        System.out.println("📦 Chargé: " + typeProduits.size() + " produits");
-        System.out.println("📦 Chargé: " + typeProduits ); 
-    }    
+        ensureInitialized();
+    }
     
-    private void chargerTypeProduits() {
+    private void ensureInitialized() {
+        if (typeProduits != null) {
+            return; // Déjà initialisé
+        }
+        chargerTypeProduits(TYPEPRODUIT_CONFIG);
+    }
+    
+    private void chargerTypeProduits(String fichier) {
         this.typeProduits = new HashMap<>();
         
-        try (InputStream input = getClass().getClassLoader().getResourceAsStream(configFile)) {
+        try (InputStream input = getClass().getClassLoader().getResourceAsStream(fichier)) {
             if (input == null) {
-                throw new RuntimeException("Fichier de configuration " + configFile + " non trouvé");
+                throw new RuntimeException("Fichier de configuration " + fichier + " non trouvé");
             }
             
             Map<String, String> data = objectMapper.readValue(input, new TypeReference<Map<String, String>>() {});
@@ -52,24 +51,17 @@ public class TypeProduitRepository {
             }
             
         } catch (IOException e) {
-            throw new RuntimeException("Erreur lors du chargement de " + configFile, e);
+            throw new RuntimeException("Erreur lors du chargement de " + fichier, e);
         }
     }
-   
+    
     public Map<String, TypeProduit> findAll() {
-    	 System.out.println("🔍 findAll() - Instance: " + this.hashCode());
-        if (typeProduits == null) {
-            System.out.println("⚠️ typeProduits null dans findAll() - réinitialisation");
-            init(); // Force la réinitialisation
-        }
+        ensureInitialized();
         return new HashMap<>(typeProduits);
     }
     
-//    public Map<String, TypeProduit> findAll() {
-//        return new HashMap<>(typeProduits);
-//    }
-    
     public Optional<TypeProduit> findByName(String nom) {
+        ensureInitialized();
         return Optional.ofNullable(typeProduits.get(nom));
     }
 }

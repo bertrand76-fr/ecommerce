@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.TestPropertySource;
 
 import java.util.Map;
 import java.util.Optional;
@@ -14,20 +13,17 @@ import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-@TestPropertySource(properties = {
-    "app.data.typeproduits=data/typeproduits-test.json"
-})
 @DisplayName("Tests du TypeProduitRepository")
 public class TypeProduitRepositoryTest {
     
-//	@Autowired
+	@Autowired
     private TypeProduitRepository repository;
     
     @BeforeEach
     void setUp() {
         repository = new TypeProduitRepository();
     }
-/*    
+    
     @Test
     @DisplayName("Doit charger tous les types de produits depuis le fichier JSON")
     void findAll_shouldLoadAllTypeProduits() {
@@ -89,18 +85,5 @@ public class TypeProduitRepositoryTest {
         // Then
         assertNotNull(result);
     }
-*/    
-    @Test
-    void debug_repositoryState() {
-        System.out.println("🔍 Repository: " + repository);
-        System.out.println("🔍 Repository class: " + repository.getClass());
         
-        // Attendre que l'init soit finie
-        assertNotNull(repository.findAll());
-        
-        Map<String, TypeProduit> all = repository.findAll();
-        System.out.println("🔍 FindAll result: " + all);
-        System.out.println("🔍 Size: " + all.size());
-    }
-    
 }
