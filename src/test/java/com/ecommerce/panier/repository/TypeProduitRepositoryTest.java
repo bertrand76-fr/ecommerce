@@ -1,7 +1,6 @@
 package com.ecommerce.panier.repository;
 
 import com.ecommerce.panier.model.produit.TypeProduit;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,10 +18,6 @@ class TypeProduitRepositoryTest {
 	@Autowired
     private TypeProduitRepository repository;
     
-    @BeforeEach
-    void setUp() {
-        repository = new TypeProduitRepository();
-    }
     
     @Test
     @DisplayName("Doit charger tous les types de produits depuis le fichier JSON")

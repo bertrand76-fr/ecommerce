@@ -1,4 +1,8 @@
 package com.ecommerce.panier.runner;
+
+
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -10,6 +14,7 @@ import com.ecommerce.panier.model.panier.Panier;
 import com.ecommerce.panier.model.produit.TypeProduit;
 import com.ecommerce.panier.repository.TypeProduitRepository;
 import com.ecommerce.panier.service.PanierService;
+import com.ecommerce.panier.service.PricingService;
 
 @Component
 public class DemoRunner implements CommandLineRunner {
@@ -17,17 +22,13 @@ public class DemoRunner implements CommandLineRunner {
     @Autowired
     private PanierService panierService;
 
+    
+    @Autowired
+    private PricingService pricingService;
+    
     @Autowired
     private TypeProduitRepository typeProduitRepository;
-    
-//    private Panier panier;
-//    private TypeProduit telephoneHautGamme;
-//    private TypeProduit telephoneMoyenGamme;
-//    private TypeProduit laptop;
-//    
-//    private Client clientParticulier;
-//    private Client clientProfessionnelPetit;
-//    private Client clientProfessionnelGros;
+
 
 
     @Override
@@ -58,16 +59,59 @@ public class DemoRunner implements CommandLineRunner {
         // Création des 3 types de clients et affichage du prix de panier
         System.out.println("Panier pour client particulier" );
         Client clientParticulier = new ClientParticulier("C001", "Dupont", "Jean");
-        panierService.afficherPanier(panier, clientParticulier);        
+        afficherPanier(panier, clientParticulier);        
         
         System.out.println("Panier pour client professionnel petit" );
         Client clientProfessionnelPetit = new ClientProfessionnel("C002", "Petite SARL", "123456789", 5_000_000); // CA < 10M€
-        panierService.afficherPanier(panier, clientProfessionnelPetit);        
+        afficherPanier(panier, clientProfessionnelPetit);        
         
         System.out.println("Panier pour client professionnel gros" );
         Client clientProfessionnelGros = new ClientProfessionnel("C003", "Grosse SA", "987654321", 50_000_000); // CA > 10M€
-        panierService.afficherPanier(panier, clientProfessionnelGros);
+        afficherPanier(panier, clientProfessionnelGros);
         
         System.out.println("==== FIN DE DEMO PANIER ====");
     }
+    
+    public void afficherPanier(Panier panier, Client client) {
+        if (panier == null) {
+            throw new IllegalArgumentException("Le panier ne peut pas être null");
+        }
+        if (client == null) {
+            throw new IllegalArgumentException("Le client ne peut pas être null");
+        }
+        
+        System.out.println("=== DÉTAIL DU PANIER ===");
+        System.out.println("Client: " + client.toString());
+        System.out.println();
+        
+        if (panier.estVide()) {
+            System.out.println("Le panier est vide.");
+            return;
+        }
+        
+        
+        for (Map.Entry<TypeProduit, Integer> entry : panier.getTypeProduits().entrySet()) {
+            TypeProduit typeProduit = entry.getKey();
+            Integer quantite = entry.getValue();
+            
+            // Obtenir le prix unitaire via PricingService
+            double prixUnitaire = pricingService.getPrix(typeProduit, client);
+            
+            // Calculer le sous-total pour ce type de produit
+            double sousTotal = prixUnitaire * quantite;
+            
+            // Afficher la ligne
+            System.out.printf("- %s x%d : %.2f€ x %d = %.2f€%n", 
+                            typeProduit.getNom(), quantite, prixUnitaire, quantite, sousTotal);
+        }
+        
+        double total = panierService.calculerCoutTotal(panier, client);
+        
+        System.out.println();
+        System.out.printf("TOTAL : %.2f€%n", total);
+        System.out.println("========================");
+    }
+
+   
+    
 }
